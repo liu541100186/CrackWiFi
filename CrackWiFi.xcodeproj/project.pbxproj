@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CFFE8A196CF4BB00EB11BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFE89196CF4BB00EB11BA /* Foundation.framework */; };
+		F0CFFE8C196CF4BB00EB11BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFE8B196CF4BB00EB11BA /* CoreGraphics.framework */; };
+		F0CFFE8E196CF4BB00EB11BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFE8D196CF4BB00EB11BA /* UIKit.framework */; };
+		F0CFFE94196CF4BB00EB11BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CFFE92196CF4BB00EB11BA /* InfoPlist.strings */; };
+		F0CFFE96196CF4BB00EB11BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFFE95196CF4BB00EB11BA /* main.m */; };
+		F0CFFE9A196CF4BB00EB11BA /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFFE99196CF4BB00EB11BA /* CBAppDelegate.m */; };
+		F0CFFE9C196CF4BB00EB11BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0CFFE9B196CF4BB00EB11BA /* Images.xcassets */; };
+		F0CFFEA3196CF4BB00EB11BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFEA2196CF4BB00EB11BA /* XCTest.framework */; };
+		F0CFFEA4196CF4BB00EB11BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFE89196CF4BB00EB11BA /* Foundation.framework */; };
+		F0CFFEA5196CF4BB00EB11BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CFFE8D196CF4BB00EB11BA /* UIKit.framework */; };
+		F0CFFEAD196CF4BB00EB11BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CFFEAB196CF4BB00EB11BA /* InfoPlist.strings */; };
+		F0CFFEAF196CF4BB00EB11BA /* CrackWiFiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CFFEAE196CF4BB00EB11BA /* CrackWiFiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0CFFEA6196CF4BB00EB11BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CFFE7E196CF4BB00EB11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CFFE85196CF4BB00EB11BA;
+			remoteInfo = CrackWiFi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0CFFE86196CF4BB00EB11BA /* CrackWiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrackWiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CFFE89196CF4BB00EB11BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0CFFE8B196CF4BB00EB11BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0CFFE8D196CF4BB00EB11BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0CFFE91196CF4BB00EB11BA /* CrackWiFi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrackWiFi-Info.plist"; sourceTree = "<group>"; };
+		F0CFFE93196CF4BB00EB11BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0CFFE95196CF4BB00EB11BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0CFFE97196CF4BB00EB11BA /* CrackWiFi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrackWiFi-Prefix.pch"; sourceTree = "<group>"; };
+		F0CFFE98196CF4BB00EB11BA /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		F0CFFE99196CF4BB00EB11BA /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		F0CFFE9B196CF4BB00EB11BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0CFFEA1196CF4BB00EB11BA /* CrackWiFiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrackWiFiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CFFEA2196CF4BB00EB11BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0CFFEAA196CF4BB00EB11BA /* CrackWiFiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrackWiFiTests-Info.plist"; sourceTree = "<group>"; };
+		F0CFFEAC196CF4BB00EB11BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0CFFEAE196CF4BB00EB11BA /* CrackWiFiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrackWiFiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CFFE83196CF4BB00EB11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFE8C196CF4BB00EB11BA /* CoreGraphics.framework in Frameworks */,
+				F0CFFE8E196CF4BB00EB11BA /* UIKit.framework in Frameworks */,
+				F0CFFE8A196CF4BB00EB11BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CFFE9E196CF4BB00EB11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFEA3196CF4BB00EB11BA /* XCTest.framework in Frameworks */,
+				F0CFFEA5196CF4BB00EB11BA /* UIKit.framework in Frameworks */,
+				F0CFFEA4196CF4BB00EB11BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CFFE7D196CF4BB00EB11BA = {
+			isa = PBXGroup;
+			children = (
+				F0CFFE8F196CF4BB00EB11BA /* CrackWiFi */,
+				F0CFFEA8196CF4BB00EB11BA /* CrackWiFiTests */,
+				F0CFFE88196CF4BB00EB11BA /* Frameworks */,
+				F0CFFE87196CF4BB00EB11BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CFFE87196CF4BB00EB11BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFE86196CF4BB00EB11BA /* CrackWiFi.app */,
+				F0CFFEA1196CF4BB00EB11BA /* CrackWiFiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CFFE88196CF4BB00EB11BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFE89196CF4BB00EB11BA /* Foundation.framework */,
+				F0CFFE8B196CF4BB00EB11BA /* CoreGraphics.framework */,
+				F0CFFE8D196CF4BB00EB11BA /* UIKit.framework */,
+				F0CFFEA2196CF4BB00EB11BA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0CFFE8F196CF4BB00EB11BA /* CrackWiFi */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFE98196CF4BB00EB11BA /* CBAppDelegate.h */,
+				F0CFFE99196CF4BB00EB11BA /* CBAppDelegate.m */,
+				F0CFFE9B196CF4BB00EB11BA /* Images.xcassets */,
+				F0CFFE90196CF4BB00EB11BA /* Supporting Files */,
+			);
+			path = CrackWiFi;
+			sourceTree = "<group>";
+		};
+		F0CFFE90196CF4BB00EB11BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFE91196CF4BB00EB11BA /* CrackWiFi-Info.plist */,
+				F0CFFE92196CF4BB00EB11BA /* InfoPlist.strings */,
+				F0CFFE95196CF4BB00EB11BA /* main.m */,
+				F0CFFE97196CF4BB00EB11BA /* CrackWiFi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0CFFEA8196CF4BB00EB11BA /* CrackWiFiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFEAE196CF4BB00EB11BA /* CrackWiFiTests.m */,
+				F0CFFEA9196CF4BB00EB11BA /* Supporting Files */,
+			);
+			path = CrackWiFiTests;
+			sourceTree = "<group>";
+		};
+		F0CFFEA9196CF4BB00EB11BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CFFEAA196CF4BB00EB11BA /* CrackWiFiTests-Info.plist */,
+				F0CFFEAB196CF4BB00EB11BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CFFE85196CF4BB00EB11BA /* CrackWiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CFFEB2196CF4BB00EB11BA /* Build configuration list for PBXNativeTarget "CrackWiFi" */;
+			buildPhases = (
+				F0CFFE82196CF4BB00EB11BA /* Sources */,
+				F0CFFE83196CF4BB00EB11BA /* Frameworks */,
+				F0CFFE84196CF4BB00EB11BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackWiFi;
+			productName = CrackWiFi;
+			productReference = F0CFFE86196CF4BB00EB11BA /* CrackWiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0CFFEA0196CF4BB00EB11BA /* CrackWiFiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CFFEB5196CF4BB00EB11BA /* Build configuration list for PBXNativeTarget "CrackWiFiTests" */;
+			buildPhases = (
+				F0CFFE9D196CF4BB00EB11BA /* Sources */,
+				F0CFFE9E196CF4BB00EB11BA /* Frameworks */,
+				F0CFFE9F196CF4BB00EB11BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CFFEA7196CF4BB00EB11BA /* PBXTargetDependency */,
+			);
+			name = CrackWiFiTests;
+			productName = CrackWiFiTests;
+			productReference = F0CFFEA1196CF4BB00EB11BA /* CrackWiFiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CFFE7E196CF4BB00EB11BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "时代合盛";
+				TargetAttributes = {
+					F0CFFEA0196CF4BB00EB11BA = {
+						TestTargetID = F0CFFE85196CF4BB00EB11BA;
+					};
+				};
+			};
+			buildConfigurationList = F0CFFE81196CF4BB00EB11BA /* Build configuration list for PBXProject "CrackWiFi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0CFFE7D196CF4BB00EB11BA;
+			productRefGroup = F0CFFE87196CF4BB00EB11BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CFFE85196CF4BB00EB11BA /* CrackWiFi */,
+				F0CFFEA0196CF4BB00EB11BA /* CrackWiFiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CFFE84196CF4BB00EB11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFE94196CF4BB00EB11BA /* InfoPlist.strings in Resources */,
+				F0CFFE9C196CF4BB00EB11BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CFFE9F196CF4BB00EB11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFEAD196CF4BB00EB11BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CFFE82196CF4BB00EB11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFE96196CF4BB00EB11BA /* main.m in Sources */,
+				F0CFFE9A196CF4BB00EB11BA /* CBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CFFE9D196CF4BB00EB11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CFFEAF196CF4BB00EB11BA /* CrackWiFiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0CFFEA7196CF4BB00EB11BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CFFE85196CF4BB00EB11BA /* CrackWiFi */;
+			targetProxy = F0CFFEA6196CF4BB00EB11BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0CFFE92196CF4BB00EB11BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CFFE93196CF4BB00EB11BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0CFFEAB196CF4BB00EB11BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CFFEAC196CF4BB00EB11BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CFFEB0196CF4BB00EB11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0CFFEB1196CF4BB00EB11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CFFEB3196CF4BB00EB11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackWiFi/CrackWiFi-Prefix.pch";
+				INFOPLIST_FILE = "CrackWiFi/CrackWiFi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0CFFEB4196CF4BB00EB11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackWiFi/CrackWiFi-Prefix.pch";
+				INFOPLIST_FILE = "CrackWiFi/CrackWiFi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0CFFEB6196CF4BB00EB11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrackWiFi.app/CrackWiFi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackWiFi/CrackWiFi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrackWiFiTests/CrackWiFiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0CFFEB7196CF4BB00EB11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrackWiFi.app/CrackWiFi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackWiFi/CrackWiFi-Prefix.pch";
+				INFOPLIST_FILE = "CrackWiFiTests/CrackWiFiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CFFE81196CF4BB00EB11BA /* Build configuration list for PBXProject "CrackWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CFFEB0196CF4BB00EB11BA /* Debug */,
+				F0CFFEB1196CF4BB00EB11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CFFEB2196CF4BB00EB11BA /* Build configuration list for PBXNativeTarget "CrackWiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CFFEB3196CF4BB00EB11BA /* Debug */,
+				F0CFFEB4196CF4BB00EB11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0CFFEB5196CF4BB00EB11BA /* Build configuration list for PBXNativeTarget "CrackWiFiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CFFEB6196CF4BB00EB11BA /* Debug */,
+				F0CFFEB7196CF4BB00EB11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CFFE7E196CF4BB00EB11BA /* Project object */;
+}
