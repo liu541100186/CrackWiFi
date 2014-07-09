@@ -7,7 +7,7 @@
 //
 
 #import "CBAppDelegate.h"
-
+#import "CBViewController.h"
 @implementation CBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -15,6 +15,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    CBViewController *vc = [[CBViewController alloc]init];
+    self.window.rootViewController = vc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
