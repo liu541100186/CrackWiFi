@@ -69,7 +69,7 @@
             if([self.stumbler linkToNetwork:[self.array objectAtIndex:indexPath.row] withPassword:pwd] == 0){
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [MBProgressHUD hideAllHUDsForView:self.view animated:YES];;
-                    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil  message:[NSString stringWithFormat:@"破解成功,密码是:%@",pwd] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+                    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:[[self.array objectAtIndex:indexPath.row]objectForKey:@"SSID_STR"]  message:[NSString stringWithFormat:@"破解成功,密码是:%@",pwd] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
                     [alert show];
                     return;
                 });
