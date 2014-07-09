@@ -40,7 +40,7 @@
             [table reloadData];
         });
     });
-    
+
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -69,16 +69,13 @@
             if([self.stumbler linkToNetwork:[self.array objectAtIndex:indexPath.row] withPassword:pwd] == 0){
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [MBProgressHUD hideAllHUDsForView:self.view animated:YES];;
-                    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil  message:[NSString stringWithFormat:@"破解成功,密码是:%d",i] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+                    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil  message:[NSString stringWithFormat:@"破解成功,密码是:%@",pwd] delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
                     [alert show];
                     return;
                 });
             }
         }
     });
-    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];;
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil  message:@"破解失败,密码太复杂" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
-    [alert show];
 
 }
 - (NSString *)changeStr:(NSString *)_str{

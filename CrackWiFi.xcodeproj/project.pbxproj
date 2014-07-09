@@ -126,12 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				F0C09ABE196D1A8F00FF0686 /* MBProgressHUD */,
+				F0CFFE98196CF4BB00EB11BA /* CBAppDelegate.h */,
+				F0CFFE99196CF4BB00EB11BA /* CBAppDelegate.m */,
 				F0CFFEB8196CF4D600EB11BA /* CBViewController.h */,
 				F0CFFEB9196CF4D600EB11BA /* CBViewController.m */,
 				F0CFFEBD196CF4D600EB11BA /* SOLStumbler.h */,
 				F0CFFEBE196CF4D600EB11BA /* SOLStumbler.m */,
-				F0CFFE98196CF4BB00EB11BA /* CBAppDelegate.h */,
-				F0CFFE99196CF4BB00EB11BA /* CBAppDelegate.m */,
 				F0CFFE9B196CF4BB00EB11BA /* Images.xcassets */,
 				F0CFFE90196CF4BB00EB11BA /* Supporting Files */,
 			);
